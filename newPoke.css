@@ -1,0 +1,87 @@
+body {
+    background: rgb(85, 144, 189);
+    background: linear-gradient(
+      90deg,
+      rgba(85, 144, 189, 1) 0%,
+      rgba(108, 183, 240, 1) 54%,
+      rgba(182, 216, 242, 1) 82%
+    );
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.botones {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #ff0000;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: rgb(255, 238, 0);
+    border: none;
+    cursor: pointer;
+}
+
+.izquierda-button,
+.centro-button,
+.derecha-button {
+    background-color: rgba(97, 4, 4, 0.7);
+    border-radius: 0;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.izquierda-button:hover,
+.centro-button:hover,
+.derecha-button:hover {
+    background-color: rgba(75, 20, 20, 0.9);
+}
+
+.pagina {
+    display: block;
+    margin: 20px auto;
+    padding: 15px 30px;
+    font-size: 18px;
+    color: white;
+    background-color: #007BFF;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.pagina:hover {
+    background-color: #0056b3;
+}
+
+.contenedorPokemon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.pokemon-bloque {
+    width: 30%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
+}
+
+.pokemon-bloque p {
+    margin: 5px;
+}
